@@ -38,7 +38,7 @@ public class Pomodoro implements IPomodoro{
 
     @Override
     public void session(int sessionCount, long workTime, long shortBreakTime, long longBreakTime) {
-        //cos tu chujnia, do poprawki
+        
 
         int counter = sessionCount;
         while (counter > 0) {
@@ -180,7 +180,7 @@ public class Pomodoro implements IPomodoro{
 
         if (!type.isEmpty()) {
             pomodoroTimer(time);
-        } //needs change!!
+        } 
     }
 
 
